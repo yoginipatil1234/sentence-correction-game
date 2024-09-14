@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #00796b;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+    background-color: #b2dfdb;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#sentence-container {
+    margin-bottom: 20px;
+    color: rgb(249, 18, 18);
+    font-weight: bold;
+}
+
+#sentence {
+    font-size: 18px;
+    color: #333;
+    background-color: rgb(254, 219, 219);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#user-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0288d1;
+     
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+    
+}
+
+#feedback {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#feedback.correct {
+    color: #388e3c;
+}
+
+.correct-answer {
+    font-size: 16px;
+    color: #16760e;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #21c92f;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #de1313;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+button.next-button {
+    background-color: #0288d1;
+}
+
+button.next-button:hover {
+    background-color: #01579b;
+}

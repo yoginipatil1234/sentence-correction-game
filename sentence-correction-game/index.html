@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Sentence Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Grammar Sentence Game</h1>
+        <p class="instructions">Identify and correct the grammar mistakes in the sentence below:</p>
+        <div id="sentence-container">
+            <table>
+                <tr>
+                    <th>Incorrect Sentence</th>
+                </tr>
+                <tr>
+                    <td><p id="sentence"></p></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" id="user-input" placeholder="Type the correct sentence here...">
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <center>
+                        <button onclick="checkAnswer()">Submit</button>
+                    </center>
+                    </td>
+                
+                </tr>
+            </table>
+            <p id="feedback"></p>
+            <p id="correct-answer" class="correct-answer"></p>
+        </div>
+        <button class="next-button" onclick="nextSentence()">Next Sentence</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
